@@ -1,0 +1,22 @@
+# Clasp / Google OAuth (never commit)
+client_secret.json
+.clasprc.json
+.clasp.json
+
+# Env and secrets
+.env
+.env.*
+
+# Dependencies
+node_modules/
+
+# OS / editor
+.DS_Store
+*.swp
+*.swo
+.idea/
+.vscode/
+
+# Logs
+*.log
+npm-debug.log*
