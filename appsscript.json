@@ -1,0 +1,29 @@
+{
+  "timeZone": "America/Los_Angeles",
+  "dependencies": {
+    "enabledAdvancedServices": [
+      {
+        "userSymbol": "Gmail",
+        "version": "v1",
+        "serviceId": "gmail"
+      }
+    ]
+  },
+  "exceptionLogging": "STACKDRIVER",
+  "executionApi": {
+    "access": "ANYONE"
+  },
+  "runtimeVersion": "V8",
+  "oauthScopes": [
+    "https://www.googleapis.com/auth/script.deployments",
+    "https://www.googleapis.com/auth/script.projects",
+    "https://www.googleapis.com/auth/script.webapp.deploy",
+    "https://www.googleapis.com/auth/drive.metadata.readonly",
+    "https://www.googleapis.com/auth/drive.file",
+    "https://www.googleapis.com/auth/service.management",
+    "https://www.googleapis.com/auth/logging.read",
+    "https://www.googleapis.com/auth/cloud-platform",
+    "https://www.googleapis.com/auth/script.external_request",
+    "https://mail.google.com/"
+  ]
+}
